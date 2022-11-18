@@ -10,7 +10,7 @@ $(function () {
     $('#submitFrom').click(function(event) {
         event.preventDefault();
         var values = $('#myform').serialize();
-
+        //we fixeddd
 
         $.ajax({
             url: "productaddPhp.php",
