@@ -11,6 +11,7 @@ $(function () {
         event.preventDefault();
         var values = $('#myform').serialize();
 
+
         $.ajax({
             url: "productaddPhp.php",
             type: "post",
