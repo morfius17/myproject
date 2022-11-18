@@ -20,7 +20,7 @@ $(function () {
              success: function (data) {
                 if (data.data.errors) {
                     var errors = data.data.errors;
-                    // $('#myform')[0].reset();
+                    // $('#myform')[0].reset(dfsdfsdfdfsdfsdfsfdfsdf);
                     $('#myform :input').removeClass('is-valid');
                         $.each( errors , function( index, value ) {
                             $("[name='"+ index + "']").addClass('is-invalid');
