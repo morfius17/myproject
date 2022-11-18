@@ -15,7 +15,6 @@ $(function () {
             url: "productaddPhp.php",
             type: "post",
             data: values,
-            dataType: "json",
 
              success: function (data) {
                 if (data.data.errors) {
